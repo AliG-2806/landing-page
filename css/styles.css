@@ -108,6 +108,11 @@ body{ min-height: 100vh; width: 100%; }
 
 /* Header CSS end */
 
+/* Main CSS start */
+
+
+/* Information CSS start */
+
 .information{
 	width: 100%;
 	height: 500px;
@@ -135,7 +140,7 @@ body{ min-height: 100vh; width: 100%; }
 
 .information-title{
 	font-size: 36px;
-	font-weight: extra-bold;
+	font-weight: bolder;
 	color: #1f2937;
 }
 
@@ -183,3 +188,111 @@ body{ min-height: 100vh; width: 100%; }
 	font-size: 18px;
 	color: #616A76;
 }
+
+/* Information CSS end */
+
+/* Thor text CSS start */
+
+.thor-text-container{
+	width: 100%;
+	height: 380px;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #e5e7eb;
+}
+
+.thor-text,.thor-nickname{
+	width: 820px;
+}
+
+.thor-text p{
+	font-size: 36px;
+	font-style: italic;
+	font-weight: normal;
+	color: #1f2937;
+	margin-left: 10px;
+}
+
+.thor-nickname p{
+	text-align: right;
+	margin-right: 45px;
+
+	font-weight: bold;
+	font-size: 24px;
+	color: #1f2937;
+}
+
+/* Thor text CSS end */
+
+/* Action CSS start */
+
+.action-container{
+	width: 100%;
+	height: 350px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.action-text-button{
+	border-radius: 10px;
+	width: 1000px;
+	height: 150px;
+
+	display: flex;
+	flex-wrap: wrap;
+
+	background-color: #3882f6;
+}
+
+.action-text{
+	width: 650px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.action-text h5{
+	margin-left: 95px;
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+}
+
+.action-text p{
+	margin-left: 95px;
+	font-size: 18px;
+	color: white;
+}
+
+.action-button{
+	width: 250px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.action-button button{
+	margin: 10px;
+	width: 130px;
+	height: 35px;
+	border-radius: 10px;
+	border: 2px solid white;
+	background-color: #3882f6;
+	color: #f9faf8;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/* Action CSS end */
